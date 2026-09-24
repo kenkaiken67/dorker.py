@@ -1,4 +1,3 @@
-```markdown
 # 🚀 Ultimate Dorker v7
 
 **Advanced Passive Reconnaissance Tool** berbasis Python untuk mengotomatisasi pencarian informasi sensitif yang terekspos di mesin pencari menggunakan teknik Google Dorking. Script ini dirancang untuk langsung mengeksekusi 6 *query* pencarian spesifik secara berurutan di browser **Brave**.
@@ -25,25 +24,19 @@
 **1. Clone repository ini ke local machine:**
 ```bash
 git clone [https://github.com/kenkaiken67/dorker.py.git](https://github.com/kenkaiken67/dorker.py.git)
-
 ```
 
 **2. Jalankan script:**
-*(Script ini hanya menggunakan library bawaan Python, sehingga tidak perlu menginstal `requirements.txt`.)*
-
+*(Script ini hanya menggunakan library bawaan Python, sehingga tidak perlu menginstal requirements.txt)*
 ```bash
 python dorker.py
-
 ```
-
-*(Gunakan `python3 dorker.py` jika menggunakan lingkungan Linux/macOS)*
+*(Atau gunakan `python3 dorker.py` jika menggunakan Linux/macOS)*
 
 **3. Masukkan Target:**
-Saat program berjalan, masukkan domain target yang ingin dipindai.
-
+Saat program berjalan, Anda akan diminta memasukkan domain target.
 ```text
 Masukkan domain (contoh: target.com): example.com
-
 ```
 
 ## 🔍 Dork yang Digunakan (6 Tabs Edition)
@@ -59,7 +52,3 @@ Masukkan domain (contoh: target.com): example.com
 
 > Script ini dibuat hanya untuk tujuan **Edukasi, Riset Keamanan Siber, dan program Bug Bounty resmi**.
 > Segala bentuk penyalahgunaan alat ini terhadap target yang tidak memiliki izin (ilegal) adalah di luar tanggung jawab pembuat alat (developer). Lakukan pengujian hanya pada sistem yang Anda miliki atau jika Anda telah mendapatkan izin tertulis secara eksplisit.
-
-```
-
-```
